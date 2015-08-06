@@ -1,0 +1,20 @@
+{
+  "name": "crojsdoc-plugin-underscore-private",
+  "description": "A CroJSDoc plugin that makes all properties with underscore prefix private",
+  "version": "0.1.0",
+  "keywords": [
+    "crojsdoc",
+    "plugin"
+  ],
+  "homepage": "https://github.com/croquiscom/crojsdoc-plugin-underscore-private",
+  "bugs": {
+    "url": "https://github.com/croquiscom/crojsdoc-plugin-underscore-private/issues"
+  },
+  "repository": "croquiscom/crojsdoc-plugin-underscore-private",
+  "author": "Sangmin Yoon <sangmin.yoon@croquis.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "coffee -c -o lib src"
+  }
+}
